@@ -17,6 +17,7 @@ limitations under the License.
 package util
 
 import (
+	"k8s.io/client-go/plugin/pkg/client/auth/gcp"
 	"bytes"
 	"io/ioutil"
 	"k-bench/manager"
